@@ -1,0 +1,9 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	rankdir=BT
+	"plane_figure.n.01" -> "figure.n.06"
+	"figure.n.06" -> "shape.n.02"
+	"shape.n.02" -> "attribute.n.02"
+	"attribute.n.02" -> "abstraction.n.06"
+	"abstraction.n.06" -> "entity.n.01"
+}

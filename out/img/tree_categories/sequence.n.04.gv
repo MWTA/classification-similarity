@@ -1,0 +1,12 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	rankdir=BT
+	"succession.n.03" -> "order.n.15"
+	"order.n.15" -> "organization.n.06"
+	"organization.n.06" -> "activity.n.01"
+	"activity.n.01" -> "act.n.02"
+	"act.n.02" -> "event.n.01"
+	"event.n.01" -> "psychological_feature.n.01"
+	"psychological_feature.n.01" -> "abstraction.n.06"
+	"abstraction.n.06" -> "entity.n.01"
+}

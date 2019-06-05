@@ -1,0 +1,7 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	rankdir=BT
+	"time_unit.n.01" -> "measure.n.02"
+	"measure.n.02" -> "abstraction.n.06"
+	"abstraction.n.06" -> "entity.n.01"
+}

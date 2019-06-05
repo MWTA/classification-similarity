@@ -1,0 +1,12 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	rankdir=BT
+	"material.n.01" -> "substance.n.01"
+	"substance.n.01" -> "matter.n.03"
+	"matter.n.03" -> "physical_entity.n.01"
+	"physical_entity.n.01" -> "entity.n.01"
+	"substance.n.01" -> "part.n.01"
+	"part.n.01" -> "relation.n.01"
+	"relation.n.01" -> "abstraction.n.06"
+	"abstraction.n.06" -> "entity.n.01"
+}

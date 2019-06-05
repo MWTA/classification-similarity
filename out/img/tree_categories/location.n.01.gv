@@ -1,0 +1,7 @@
+digraph unix {
+	node [color=lightblue2 style=filled]
+	rankdir=BT
+	"location.n.01" -> "object.n.01"
+	"object.n.01" -> "physical_entity.n.01"
+	"physical_entity.n.01" -> "entity.n.01"
+}
